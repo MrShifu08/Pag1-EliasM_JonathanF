@@ -1,0 +1,149 @@
+body{
+    background-image: url(../Imagenes/c633c20ede82f0e0ced7d570dbe3a1f3.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0%;
+    right: 20%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    position: relative;
+    margin-top: 7%;
+    border: 7px solid rgb(255, 196, 0);
+    border-radius: 3%;
+    background-color: rgb(138, 0, 0);
+    height: 600px;
+    width: 445px;
+    transition: box-shadow 0.6s ease;
+}
+
+.contenedor:hover{
+    box-shadow: 0 0 30px 10px rgb(255, 166, 0);
+}
+
+.contenedor2{
+    position: relative;
+    margin-top: 0%;
+    border: 6px solid rgb(255, 196, 0);
+    height: 150px;
+    width: 436px;
+    
+}
+
+.img2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor3{
+    top:25%;
+    left: 45%;
+    position: absolute;
+}
+
+.img1{ 
+    position: relative;
+    height: 100%;
+    width: 50%;
+    margin-top: -9%;
+    left: -15%;
+    border: 5px solid rgb(255, 196, 0);
+    border-radius: 50%;
+    background-color: rgb(230, 159, 29);
+}
+
+h1{ 
+    text-align: center;
+    color: antiquewhite;
+}
+
+h4{
+    padding: 7%;
+    font-family: Comic;
+    
+    color: rgb(255, 255, 255);
+}
+
+.contenedor4{
+    margin: 0%;
+    position: absolute;
+    top: 93%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+}
+
+.fa-youtube:hover{
+    background-color: rgb(219, 27, 27);
+    color: white;
+    box-shadow: 0 0 15px rgb(255, 0, 0),
+                0 0 45px rgb(212, 21, 21),
+                0 0 75px rgb(231, 65, 65),
+                0 0 115px rgb(255, 255, 255);
+}
+
+.fa-instagram:hover{
+    background-color: rgb(133, 0, 110);
+    color: white;
+    box-shadow: 0 0 15px rgb(174, 0, 255),
+                0 0 45px rgb(212, 0, 255),
+                0 0 75px rgb(247, 0, 255),
+                0 0 115px rgb(255, 0, 157);
+}
+
+.contenedor5{
+    margin: 0%;
+    position: absolute;
+    top: 93%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+}
+
+i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+}
+
+.fa-tiktok:hover{
+    background-color: rgb(12, 1, 61);
+    color: white;
+    box-shadow: 0 0 15px rgb(183, 0, 255),
+                0 0 45px rgb(140, 0, 255),
+                0 0 75px rgb(89, 0, 255),
+                0 0 115px rgb(4, 0, 255);
+}
+
+.fa-x-twitter:hover{
+    background-color: rgb(7, 6, 6);
+    color: white;
+    box-shadow: 0 0 15px rgb(0, 0, 0),
+                0 0 45px rgb(20, 19, 19),
+                0 0 75px rgb(78, 76, 76),
+                0 0 115px rgb(206, 203, 203)
+            }
+
+ 
